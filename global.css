@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+.popup-overlay {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  inset: 0;
+}
+
+:root {
+  /* fonts */
+  --regular-small: Inter;
+  --font: "Be Vietnam Pro";
+  --font-open-sans: "Open Sans";
+  --font-poppins: Poppins;
+  --font-kumbh-sans: "Kumbh Sans";
+  --font-manrope: Manrope;
+  --btn-l-semi-bold: Outfit;
+
+  /* font sizes */
+  --regular-small-size: 14px;
+  --font-size-2xs: 11px;
+  --font-size-base: 16px;
+  --bold-xsmall-size: 12px;
+  --btn-l-semi-bold-size: 18px;
+  --font-size-mini: 15px;
+
+  /* Colors */
+  --blackampwhite-white: #fff;
+  --knock-gray-200: #a5acb8;
+  --gray-gray-400: #9ea0aa;
+  --gray-gray-200: #dddee1;
+  --color-gainsboro-100: #e1d8d8;
+  --blue-blue-300: #6c7fe0;
+  --knock-gray-700: #3c4257;
+  --knock-brand-primary: #e95744;
+  --dmv-black: #23262f;
+  --knock-gray-900: #1a1f36;
+  --black-100: #1c1c1e;
+  --color-gray-100: #01000d;
+  --light-text-secondary: rgba(28, 28, 30, 0.72);
+  --color-chocolate: #f47920;
+  --color-black: #000;
+  --text-color-text-3: #78778b;
+  --color-dimgray: #515155;
+
+  /* Gaps */
+  --gap-9xs: 4px;
+  --gap-11xl: 30px;
+  --gap-21xl: 40px;
+  --gap-mini: 15px;
+  --gap-6xs: 7px;
+  --gap-2xl: 21px;
+  --gap-8xs: 5px;
+  --gap-6xl: 25px;
+  --gap-xs: 12px;
+  --gap-11xs: 2px;
+  --gap-5xs: 8px;
+
+  /* Paddings */
+  --padding-9xs: 4px;
+  --padding-5xs: 8px;
+  --padding-7xs: 6px;
+  --padding-4xs: 9px;
+  --padding-xl: 20px;
+  --padding-lgi: 19px;
+  --padding-6xl: 25px;
+  --padding-5xl: 24px;
+  --padding-mini: 15px;
+  --padding-sm: 14px;
+  --padding-3xs: 10px;
+
+  /* border radiuses */
+  --br-9xs: 4px;
+  --br-11xs: 2px;
+  --br-5xl: 24px;
+  --br-3xs: 10px;
+  --br-8xs: 5px;
+  --br-5xs: 8px;
+
+  /* Effects */
+  --button-drop-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12);
+}
